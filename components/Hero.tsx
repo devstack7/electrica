@@ -1,6 +1,7 @@
 'use client'
 
 import { FaBolt, FaCheckCircle, FaPhone } from 'react-icons/fa'
+import Image from 'next/image'
 
 export default function Hero() {
   return (
@@ -81,9 +82,11 @@ export default function Hero() {
           <div className="relative hidden lg:block">
             <div className="relative z-10">
               <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20">
-                <img 
+                <Image 
                   src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=600&h=800&fit=crop" 
                   alt="Professional Electrician" 
+                  width={600}
+                  height={800}
                   className="rounded-lg shadow-2xl w-full h-[600px] object-cover"
                 />
                 

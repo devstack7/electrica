@@ -32,7 +32,7 @@ export default function WhyChooseUs() {
     {
       icon: <FaThumbsUp />,
       title: '100% Satisfaction',
-      description: 'We stand behind our work with a satisfaction guarantee. If you\'re not happy, we\'ll make it right.'
+      description: 'We stand behind our work with a satisfaction guarantee. If you&apos;re not happy, we&apos;ll make it right.'
     }
   ]
 
@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
             Why Thousands Choose Electrica
           </h2>
           <p className="text-gray-300 text-lg">
-            We're not just another electrical service provider. Here's what sets us apart and 
+            We&apos;re not just another electrical service provider. Here&apos;s what sets us apart and 
             makes us the preferred choice for electrical solutions.
           </p>
         </div>
@@ -82,7 +82,7 @@ export default function WhyChooseUs() {
           <h3 className="text-3xl font-bold mb-4">Ready to Experience the Difference?</h3>
           <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
             Join thousands of satisfied customers who trust Electrica for all their electrical needs. 
-            Get your free quote today and see why we're the best in the business.
+            Get your free quote today and see why we&apos;re the best in the business.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#contact" className="btn-primary">

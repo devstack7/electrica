@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 
 export default function Projects() {
   const [activeCategory, setActiveCategory] = useState('all')
@@ -97,9 +98,11 @@ export default function Projects() {
               key={project.id}
               className="group relative overflow-hidden rounded-xl shadow-lg card-hover"
             >
-              <img 
+              <Image 
                 src={project.image} 
                 alt={project.title}
+                width={600}
+                height={400}
                 className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/70 to-transparent opacity-90"></div>
@@ -120,7 +123,7 @@ export default function Projects() {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <p className="text-xl text-gray-700 mb-6">
-            Want to see your project here? Let's make it happen!
+            Want to see your project here? Let&apos;s make it happen!
           </p>
           <a href="#contact" className="btn-primary">
             Start Your Project

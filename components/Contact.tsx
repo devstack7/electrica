@@ -38,7 +38,7 @@ export default function Contact() {
             Get In Touch With Us
           </h2>
           <p className="text-gray-600 text-lg">
-            Ready to get started? Have questions? Contact us today and let's discuss 
+            Ready to get started? Have questions? Contact us today and let&apos;s discuss 
             how we can help with your electrical needs.
           </p>
         </div>
@@ -48,8 +48,8 @@ export default function Contact() {
           <div>
             <h3 className="text-2xl font-bold text-secondary mb-6">Contact Information</h3>
             <p className="text-gray-600 mb-8">
-              We're here to help! Reach out to us through any of the following channels, 
-              and we'll respond as quickly as possible.
+              We&apos;re here to help! Reach out to us through any of the following channels, 
+              and we&apos;ll respond as quickly as possible.
             </p>
 
             <div className="space-y-6">

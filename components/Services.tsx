@@ -105,7 +105,7 @@ export default function Services() {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <p className="text-xl text-gray-700 mb-6">
-            Don't see what you're looking for? We handle all electrical needs!
+            Don&apos;t see what you&apos;re looking for? We handle all electrical needs!
           </p>
           <a href="#contact" className="btn-primary">
             Request Custom Service

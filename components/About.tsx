@@ -1,6 +1,7 @@
 'use client'
 
 import { FaAward, FaUsers, FaClock, FaCheckCircle } from 'react-icons/fa'
+import Image from 'next/image'
 
 export default function About() {
   return (
@@ -10,14 +11,18 @@ export default function About() {
           {/* Left - Images */}
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
-              <img 
+              <Image 
                 src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400&h=500&fit=crop" 
                 alt="Electrician working" 
+                width={400}
+                height={500}
                 className="rounded-lg shadow-lg h-[400px] object-cover"
               />
-              <img 
+              <Image 
                 src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=500&fit=crop" 
                 alt="Electrical panel" 
+                width={400}
+                height={500}
                 className="rounded-lg shadow-lg h-[400px] object-cover mt-12"
               />
             </div>

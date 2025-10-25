@@ -1,6 +1,7 @@
 'use client'
 
 import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa'
+import Image from 'next/image'
 
 export default function Team() {
   const team = [
@@ -55,7 +56,7 @@ export default function Team() {
           </h2>
           <p className="text-gray-600 text-lg">
             Our team of licensed, certified electricians brings years of experience and 
-            dedication to every project. Get to know the professionals who'll be working on your property.
+            dedication to every project. Get to know the professionals who&apos;ll be working on your property.
           </p>
         </div>
 
@@ -67,9 +68,11 @@ export default function Team() {
               className="group relative overflow-hidden rounded-xl shadow-lg card-hover"
             >
               <div className="relative overflow-hidden">
-                <img 
+                <Image 
                   src={member.image} 
                   alt={member.name}
+                  width={400}
+                  height={400}
                   className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/50 to-transparent"></div>
@@ -113,8 +116,8 @@ export default function Team() {
         <div className="mt-16 bg-gradient-to-r from-secondary to-accent rounded-2xl p-12 text-center text-white">
           <h3 className="text-3xl font-bold mb-4">Join Our Growing Team!</h3>
           <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-            We're always looking for skilled electricians to join our team. 
-            If you're passionate about quality work and customer service, we'd love to hear from you.
+            We&apos;re always looking for skilled electricians to join our team. 
+            If you&apos;re passionate about quality work and customer service, we&apos;d love to hear from you.
           </p>
           <a href="mailto:careers@electrica.com" className="btn-primary">
             View Open Positions

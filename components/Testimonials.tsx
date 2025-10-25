@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { FaStar, FaQuoteLeft } from 'react-icons/fa'
+import Image from 'next/image'
 
 export default function Testimonials() {
   const testimonials = [
@@ -67,7 +68,7 @@ export default function Testimonials() {
             What Our Clients Say
           </h2>
           <p className="text-gray-600 text-lg">
-            Don't just take our word for it. Here's what our satisfied customers have to say 
+            Don&apos;t just take our word for it. Here&apos;s what our satisfied customers have to say 
             about their experience with Electrica.
           </p>
         </div>
@@ -90,15 +91,17 @@ export default function Testimonials() {
 
               {/* Review Text */}
               <p className="text-gray-700 mb-6 leading-relaxed">
-                "{testimonial.text}"
+                &ldquo;{testimonial.text}&rdquo;
               </p>
 
               {/* Author */}
               <div className="flex items-center gap-4 pt-4 border-t border-gray-100">
-                <img 
+                <Image 
                   src={testimonial.image} 
                   alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover"
+                  width={48}
+                  height={48}
+                  className="rounded-full object-cover"
                 />
                 <div>
                   <h4 className="font-bold text-secondary">{testimonial.name}</h4>

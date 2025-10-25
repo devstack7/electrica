@@ -13,7 +13,7 @@ export default function FAQ() {
     },
     {
       question: 'Do you offer emergency electrical services?',
-      answer: 'Absolutely! We provide 24/7 emergency electrical services. If you have an electrical emergency, call us immediately and we\'ll dispatch a licensed electrician to your location as quickly as possible.'
+      answer: 'Absolutely! We provide 24/7 emergency electrical services. If you have an electrical emergency, call us immediately and we&apos;ll dispatch a licensed electrician to your location as quickly as possible.'
     },
     {
       question: 'How do you determine pricing for electrical work?',
@@ -25,7 +25,7 @@ export default function FAQ() {
     },
     {
       question: 'Do you guarantee your work?',
-      answer: 'Yes, we stand behind all our work with a comprehensive satisfaction guarantee. If there are any issues with our workmanship, we\'ll make it right at no additional cost to you.'
+      answer: 'Yes, we stand behind all our work with a comprehensive satisfaction guarantee. If there are any issues with our workmanship, we&apos;ll make it right at no additional cost to you.'
     },
     {
       question: 'How quickly can you respond to a service request?',
@@ -53,7 +53,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="text-gray-600 text-lg">
-            Have questions? We've got answers! Browse through our most commonly asked questions 
+            Have questions? We&apos;ve got answers! Browse through our most commonly asked questions 
             to learn more about our services.
           </p>
         </div>
@@ -98,8 +98,8 @@ export default function FAQ() {
         <div className="mt-16 text-center bg-gradient-to-r from-secondary to-accent rounded-2xl p-12 text-white">
           <h3 className="text-3xl font-bold mb-4">Still Have Questions?</h3>
           <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-            Can't find the answer you're looking for? Our friendly team is here to help! 
-            Reach out and we'll get back to you as soon as possible.
+            Can&apos;t find the answer you&apos;re looking for? Our friendly team is here to help! 
+            Reach out and we&apos;ll get back to you as soon as possible.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#contact" className="btn-primary">
