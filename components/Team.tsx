@@ -7,39 +7,39 @@ export default function Team() {
   const team = [
     {
       name: 'James Wilson',
-      role: 'Master Electrician',
+      role: 'Lead Electrician',
       image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop',
-      bio: '20+ years of experience in residential and commercial electrical work',
+      bio: 'Specialising in custom builds and renovations throughout Melbourne',
       linkedin: '#',
       twitter: '#',
-      email: 'james@electrica.com'
+      email: 'james@j-ampgroup.com.au'
     },
     {
       name: 'Robert Davis',
       role: 'Senior Electrician',
       image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop',
-      bio: 'Specialist in industrial electrical systems and automation',
+      bio: 'Expert in electrical fit-outs and commercial projects',
       linkedin: '#',
       twitter: '#',
-      email: 'robert@electrica.com'
+      email: 'robert@j-ampgroup.com.au'
     },
     {
       name: 'Thomas Miller',
       role: 'Licensed Electrician',
       image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop',
-      bio: 'Expert in smart home installations and energy-efficient solutions',
+      bio: 'Specialist in smart home installations and energy-efficient solutions',
       linkedin: '#',
       twitter: '#',
-      email: 'thomas@electrica.com'
+      email: 'thomas@j-ampgroup.com.au'
     },
     {
       name: 'Jennifer Taylor',
       role: 'Project Manager',
       image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop',
-      bio: 'Coordinates large-scale projects with precision and expertise',
+      bio: 'Coordinates renovation and extension projects with precision',
       linkedin: '#',
       twitter: '#',
-      email: 'jennifer@electrica.com'
+      email: 'jennifer@j-ampgroup.com.au'
     }
   ]
 
@@ -119,7 +119,7 @@ export default function Team() {
             We&apos;re always looking for skilled electricians to join our team. 
             If you&apos;re passionate about quality work and customer service, we&apos;d love to hear from you.
           </p>
-          <a href="mailto:careers@electrica.com" className="btn-primary">
+          <a href="mailto:careers@j-ampgroup.com.au" className="btn-primary">
             View Open Positions
           </a>
         </div>

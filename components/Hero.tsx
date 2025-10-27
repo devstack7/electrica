@@ -27,12 +27,12 @@ export default function Hero() {
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
               Expert Electrical
               <span className="text-gradient block">Solutions</span>
-              For Your Home & Business
+              For Custom Builds & Renovations
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              Licensed, insured, and experienced electricians providing top-quality electrical 
-              services with 24/7 emergency support. Your safety is our priority.
+              A trusted electrical company specialising in custom new builds, renovations, 
+              extensions and fit-outs throughout Melbourne. Licensed, insured, and experienced.
             </p>
 
             {/* Features List */}
@@ -55,24 +55,24 @@ export default function Hero() {
               <a href="#contact" className="btn-primary text-center">
                 Get Free Quote
               </a>
-              <a href="tel:+1234567890" className="btn-outline border-white text-white hover:bg-white hover:text-secondary text-center flex items-center justify-center gap-2">
+              <a href="tel:0482441022" className="btn-outline border-white text-white hover:bg-white hover:text-secondary text-center flex items-center justify-center gap-2">
                 <FaPhone />
-                <span>Call Now</span>
+                <span>0482 441 022</span>
               </a>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 mt-12 pt-12 border-t border-white/20">
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">15+</div>
+                <div className="text-4xl font-bold text-primary mb-2">5+</div>
                 <div className="text-sm text-gray-300">Years Experience</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">5000+</div>
+                <div className="text-4xl font-bold text-primary mb-2">200+</div>
                 <div className="text-sm text-gray-300">Projects Done</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">98%</div>
+                <div className="text-4xl font-bold text-primary mb-2">100%</div>
                 <div className="text-sm text-gray-300">Client Satisfaction</div>
               </div>
             </div>

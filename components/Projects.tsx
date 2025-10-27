@@ -6,50 +6,50 @@ import Image from 'next/image'
 export default function Projects() {
   const [activeCategory, setActiveCategory] = useState('all')
 
-  const categories = ['all', 'residential', 'commercial', 'industrial']
+  const categories = ['all', 'residential', 'commercial']
 
   const projects = [
     {
       id: 1,
-      title: 'Modern Home Electrical Installation',
+      title: 'Custom New Build - Luxury Home',
       category: 'residential',
       image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop',
-      description: 'Complete rewiring and smart home installation for luxury residence'
+      description: 'Complete electrical installation for luxury new build in Melbourne'
     },
     {
       id: 2,
-      title: 'Office Building Lighting Upgrade',
+      title: 'Office Renovation & Fit-out',
       category: 'commercial',
       image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop',
-      description: 'LED lighting installation with energy-efficient solutions'
+      description: 'Full electrical fit-out for modern office renovation'
     },
     {
       id: 3,
-      title: 'Industrial Panel Replacement',
-      category: 'industrial',
+      title: 'Home Extension Project',
+      category: 'residential',
       image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=400&fit=crop',
-      description: 'High-capacity electrical panel upgrade for manufacturing facility'
+      description: 'Electrical services for major home extension in Melbourne suburbs'
     },
     {
       id: 4,
-      title: 'Residential Pool Electrical',
+      title: 'Kitchen & Bathroom Renovation',
       category: 'residential',
       image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=400&fit=crop',
-      description: 'Pool lighting and electrical system installation'
+      description: 'Complete electrical upgrade for kitchen and bathroom renovation'
     },
     {
       id: 5,
-      title: 'Retail Store Electrical Setup',
+      title: 'Retail Store Fit-out',
       category: 'commercial',
       image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop',
-      description: 'Complete electrical setup for new retail location'
+      description: 'Professional electrical fit-out for new retail location'
     },
     {
       id: 6,
-      title: 'Warehouse Power Distribution',
-      category: 'industrial',
+      title: 'Custom Home Smart System',
+      category: 'residential',
       image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop',
-      description: 'Power distribution system for large warehouse facility'
+      description: 'Smart home electrical system for custom new build'
     }
   ]
 

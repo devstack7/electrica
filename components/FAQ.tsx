@@ -20,8 +20,8 @@ export default function FAQ() {
       answer: 'We provide upfront, transparent pricing with no hidden fees. For most jobs, we can provide an estimate over the phone or via email. For larger projects, we offer free on-site consultations to provide accurate quotes.'
     },
     {
-      question: 'What areas do you service?',
-      answer: 'We service all areas within a 50-mile radius of our main office. Contact us to confirm if we service your specific location.'
+      question: 'What areas in Melbourne do you service?',
+      answer: 'We provide electrical services throughout Melbourne and surrounding suburbs in Victoria. Contact us to confirm if we service your specific location.'
     },
     {
       question: 'Do you guarantee your work?',
@@ -105,8 +105,8 @@ export default function FAQ() {
             <a href="#contact" className="btn-primary">
               Contact Us
             </a>
-            <a href="tel:+1234567890" className="btn-outline border-white text-white hover:bg-white hover:text-secondary">
-              Call: +1 (234) 567-890
+            <a href="tel:0482441022" className="btn-outline border-white text-white hover:bg-white hover:text-secondary">
+              Call: 0482 441 022
             </a>
           </div>
         </div>

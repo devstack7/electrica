@@ -31,13 +31,13 @@ export default function Header() {
       <div className="bg-secondary text-white py-2 px-4 md:px-8 hidden md:block">
         <div className="container-custom flex justify-between items-center text-sm">
           <div className="flex gap-6">
-            <a href="tel:+1234567890" className="flex items-center gap-2 hover:text-primary transition">
+            <a href="tel:0482441022" className="flex items-center gap-2 hover:text-primary transition">
               <FaPhone className="text-primary" />
-              <span>+1 (234) 567-890</span>
+              <span>0482 441 022</span>
             </a>
-            <a href="mailto:info@electrica.com" className="flex items-center gap-2 hover:text-primary transition">
+            <a href="mailto:info@j-ampgroup.com.au" className="flex items-center gap-2 hover:text-primary transition">
               <FaEnvelope className="text-primary" />
-              <span>info@electrica.com</span>
+              <span>info@j-ampgroup.com.au</span>
             </a>
           </div>
           <div className="text-primary font-semibold">
@@ -60,7 +60,7 @@ export default function Header() {
                 <FaBolt className="text-2xl text-secondary" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-secondary">ELECTRICA</h1>
+                <h1 className="text-2xl font-bold text-secondary">J-AMP GROUP</h1>
                 <p className="text-xs text-gray-600">Electrical Services</p>
               </div>
             </a>

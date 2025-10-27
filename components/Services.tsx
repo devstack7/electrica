@@ -6,15 +6,21 @@ export default function Services() {
   const services = [
     {
       icon: <FaHome />,
-      title: 'Residential Electrical',
-      description: 'Complete electrical services for your home including installations, repairs, and upgrades.',
-      features: ['Wiring & Rewiring', 'Panel Upgrades', 'Outlet Installation', 'Home Automation']
+      title: 'Custom New Builds',
+      description: 'Complete electrical solutions for new home construction projects throughout Melbourne.',
+      features: ['Full House Wiring', 'Smart Home Integration', 'LED Lighting Design', 'Switchboard Installation']
     },
     {
       icon: <FaBuilding />,
-      title: 'Commercial Electrical',
-      description: 'Professional electrical solutions for businesses and commercial properties.',
-      features: ['Office Wiring', 'Emergency Lighting', 'Power Distribution', 'Maintenance']
+      title: 'Renovations & Extensions',
+      description: 'Expert electrical services for home renovations and extension projects.',
+      features: ['Rewiring Services', 'Additional Circuits', 'Lighting Upgrades', 'Power Point Installation']
+    },
+    {
+      icon: <FaTools />,
+      title: 'Fit-outs',
+      description: 'Professional electrical fit-outs for residential and commercial properties.',
+      features: ['Complete Fit-outs', 'Custom Solutions', 'Quality Workmanship', 'Timely Completion']
     },
     {
       icon: <FaLightbulb />,
@@ -24,21 +30,21 @@ export default function Services() {
     },
     {
       icon: <FaShieldAlt />,
-      title: 'Electrical Safety',
-      description: 'Comprehensive safety inspections and testing to protect your property.',
-      features: ['Safety Inspections', 'Code Compliance', 'GFCI Installation', 'Surge Protection']
+      title: 'Electrical Safety & Testing',
+      description: 'Comprehensive safety inspections and testing to keep your property safe.',
+      features: ['Safety Inspections', 'Compliance Testing', 'Smoke Alarm Installation', 'Electrical Certificates']
     },
     {
       icon: <FaPlug />,
-      title: 'Panel & Circuits',
-      description: 'Electrical panel upgrades and circuit installation for increased capacity.',
-      features: ['Panel Replacement', 'Circuit Addition', 'Breaker Repair', 'Load Balancing']
+      title: 'Switchboard Upgrades',
+      description: 'Modern switchboard installations and upgrades for increased capacity and safety.',
+      features: ['Switchboard Replacement', 'Circuit Breaker Installation', 'Safety Switch Installation', 'Meter Box Upgrades']
     },
     {
       icon: <FaCog />,
-      title: 'Maintenance & Repair',
-      description: '24/7 emergency repairs and scheduled maintenance services.',
-      features: ['Emergency Repairs', 'Troubleshooting', 'Preventive Maintenance', 'System Testing']
+      title: 'Maintenance & Repairs',
+      description: 'Reliable maintenance and repair services for all your electrical needs.',
+      features: ['Fault Finding', 'Emergency Repairs', 'Preventive Maintenance', 'Power Point Repairs']
     }
   ]
 

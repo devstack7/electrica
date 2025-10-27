@@ -30,7 +30,7 @@ export default function About() {
             {/* Experience Badge */}
             <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-primary p-6 rounded-xl shadow-2xl">
               <div className="text-center">
-                <div className="text-4xl font-bold text-secondary">15+</div>
+                <div className="text-4xl font-bold text-secondary">5+</div>
                 <div className="text-sm text-secondary font-semibold">Years Experience</div>
               </div>
             </div>
@@ -43,19 +43,19 @@ export default function About() {
             </div>
             
             <h2 className="heading-secondary mb-6">
-              Your Trusted Electrical Service Provider
+              Melbourne&apos;s Trusted Electrical Specialists
             </h2>
             
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
-              With over 15 years of experience, Electrica has been providing top-quality 
-              electrical services to residential and commercial clients. Our team of licensed, 
-              certified electricians is committed to delivering safe, reliable, and efficient solutions.
+              Since 2020, J-Amp Group has been providing top-quality electrical services 
+              throughout Melbourne. We specialise in custom new builds, renovations, extensions, 
+              and fit-outs, delivering exceptional results for every project.
             </p>
 
             <p className="text-gray-600 mb-8 leading-relaxed">
-              We pride ourselves on our professionalism, attention to detail, and customer 
-              satisfaction. From simple repairs to complex installations, we handle every 
-              project with the same level of expertise and care.
+              Based in Melbourne, Victoria, our team of licensed electricians is committed to 
+              delivering safe, reliable, and efficient electrical solutions. From residential 
+              homes to commercial properties, we handle every project with expertise and care.
             </p>
 
             {/* Features */}
@@ -85,8 +85,8 @@ export default function About() {
                   <FaUsers className="text-2xl text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-secondary mb-1">5000+ Clients</h4>
-                  <p className="text-sm text-gray-600">Trusted by thousands</p>
+                  <h4 className="font-bold text-secondary mb-1">200+ Projects</h4>
+                  <p className="text-sm text-gray-600">Completed successfully</p>
                 </div>
               </div>
 

@@ -51,10 +51,10 @@ export default function WhyChooseUs() {
             <span className="text-primary font-semibold">⚡ Why Choose Us</span>
           </div>
           <h2 className="heading-secondary text-white mb-6">
-            Why Thousands Choose Electrica
+            Why Choose J-Amp Group
           </h2>
           <p className="text-gray-300 text-lg">
-            We&apos;re not just another electrical service provider. Here&apos;s what sets us apart and 
+            We&apos;re a trusted Melbourne electrical company specialising in quality workmanship. Here&apos;s what sets us apart and 
             makes us the preferred choice for electrical solutions.
           </p>
         </div>
@@ -81,15 +81,15 @@ export default function WhyChooseUs() {
         <div className="mt-16 bg-white/10 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-white/20 text-center">
           <h3 className="text-3xl font-bold mb-4">Ready to Experience the Difference?</h3>
           <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-            Join thousands of satisfied customers who trust Electrica for all their electrical needs. 
-            Get your free quote today and see why we&apos;re the best in the business.
+            Join our satisfied customers who trust J-Amp Group for all their electrical needs. 
+            Get your free quote today and see why we&apos;re Melbourne&apos;s trusted electrical specialists.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#contact" className="btn-primary">
               Get Free Quote
             </a>
-            <a href="tel:+1234567890" className="btn-outline border-white text-white hover:bg-white hover:text-secondary">
-              Call: +1 (234) 567-890
+            <a href="tel:0482441022" className="btn-outline border-white text-white hover:bg-white hover:text-secondary">
+              Call: 0482 441 022
             </a>
           </div>
         </div>

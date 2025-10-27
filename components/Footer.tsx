@@ -17,13 +17,13 @@ export default function Footer() {
                 <FaBolt className="text-2xl text-secondary" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold">ELECTRICA</h3>
+                <h3 className="text-2xl font-bold">J-AMP GROUP</h3>
                 <p className="text-xs text-gray-400">Electrical Services</p>
               </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Professional electrical services for residential and commercial properties. 
-              Licensed, insured, and committed to excellence.
+              A trusted Melbourne electrical company specialising in custom new builds, 
+              renovations, extensions and fit-outs. Licensed, insured, and committed to excellence.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary transition">
@@ -59,13 +59,13 @@ export default function Footer() {
           <div>
             <h4 className="text-xl font-bold mb-6">Our Services</h4>
             <ul className="space-y-3">
-              <li className="text-gray-400">Residential Electrical</li>
-              <li className="text-gray-400">Commercial Electrical</li>
-              <li className="text-gray-400">Lighting Installation</li>
-              <li className="text-gray-400">Electrical Safety</li>
-              <li className="text-gray-400">Panel & Circuits</li>
-              <li className="text-gray-400">Emergency Repairs</li>
-              <li className="text-gray-400">Maintenance Services</li>
+              <li className="text-gray-400">Custom New Builds</li>
+              <li className="text-gray-400">Renovations & Extensions</li>
+              <li className="text-gray-400">Electrical Fit-outs</li>
+              <li className="text-gray-400">Switchboard Upgrades</li>
+              <li className="text-gray-400">Safety & Testing</li>
+              <li className="text-gray-400">Maintenance & Repairs</li>
+              <li className="text-gray-400">Smart Home Systems</li>
             </ul>
           </div>
 
@@ -75,19 +75,19 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <FaMapMarkerAlt className="text-primary mt-1 flex-shrink-0" />
-                <span className="text-gray-400">123 Electric Avenue<br />New York, NY 10001</span>
+                <span className="text-gray-400">Melbourne, Victoria<br />Australia</span>
               </li>
               <li className="flex items-start gap-3">
                 <FaPhone className="text-primary mt-1 flex-shrink-0" />
                 <div className="text-gray-400">
-                  <a href="tel:+1234567890" className="hover:text-primary transition block">+1 (234) 567-890</a>
-                  <span className="text-sm text-primary">24/7 Available</span>
+                  <a href="tel:0482441022" className="hover:text-primary transition block">0482 441 022</a>
+                  <span className="text-sm text-primary">Available 7 Days</span>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <FaEnvelope className="text-primary mt-1 flex-shrink-0" />
-                <a href="mailto:info@electrica.com" className="text-gray-400 hover:text-primary transition">
-                  info@electrica.com
+                <a href="mailto:info@j-ampgroup.com.au" className="text-gray-400 hover:text-primary transition">
+                  info@j-ampgroup.com.au
                 </a>
               </li>
             </ul>
@@ -109,7 +109,7 @@ export default function Footer() {
         <div className="container-custom px-4 md:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm text-center md:text-left">
-              © {currentYear} Electrica Services. All rights reserved.
+              © {currentYear} J-Amp Group. All rights reserved. Est. 2020
             </p>
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-primary transition">Privacy Policy</a>

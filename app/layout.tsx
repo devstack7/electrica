@@ -10,13 +10,13 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Electrica - Professional Electrical Services | 24/7 Emergency Support',
-  description: 'Professional electrical services for residential and commercial needs. Licensed electricians, 24/7 emergency support, competitive pricing. Call us today!',
-  keywords: 'electrician, electrical services, emergency electrician, residential electrical, commercial electrical, licensed electrician',
-  authors: [{ name: 'Electrica Services' }],
+  title: 'J-Amp Group - Melbourne Electrical Services | Custom Builds, Renovations & Fit-outs',
+  description: 'Trusted Melbourne electrical company specialising in custom new builds, renovations, extensions and fit-outs. Licensed electricians serving Victoria since 2020. Call 0482 441 022',
+  keywords: 'electrician Melbourne, electrical services Melbourne, custom builds, renovations, fit-outs, licensed electrician Victoria, J-Amp Group',
+  authors: [{ name: 'J-Amp Group' }],
   openGraph: {
-    title: 'Electrica - Professional Electrical Services',
-    description: 'Licensed electricians providing quality electrical services for homes and businesses.',
+    title: 'J-Amp Group - Melbourne Electrical Services',
+    description: 'Trusted electrical company specialising in custom new builds, renovations, extensions and fit-outs throughout Melbourne.',
     type: 'website',
   },
 }

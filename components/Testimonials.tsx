@@ -9,50 +9,50 @@ export default function Testimonials() {
     {
       id: 1,
       name: 'John Anderson',
-      role: 'Homeowner',
+      role: 'Homeowner - Melbourne',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop',
       rating: 5,
-      text: 'Electrica did an amazing job rewiring our entire home. Professional, punctual, and the quality of work exceeded our expectations. Highly recommended!'
+      text: 'J-Amp Group did an amazing job on our new build. Professional, punctual, and the quality of work exceeded our expectations. Highly recommended!'
     },
     {
       id: 2,
       name: 'Sarah Martinez',
-      role: 'Business Owner',
+      role: 'Business Owner - Melbourne',
       image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop',
       rating: 5,
-      text: 'We needed emergency electrical work at our restaurant, and they responded within an hour. Fixed the issue quickly and professionally. True lifesavers!'
+      text: 'Excellent service for our office fit-out. The team was professional, efficient and completed everything on time. Great communication throughout!'
     },
     {
       id: 3,
       name: 'Michael Chen',
-      role: 'Property Manager',
+      role: 'Property Developer',
       image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop',
       rating: 5,
-      text: 'Been using Electrica for all our properties for years. Reliable, fair pricing, and excellent workmanship. Our go-to electricians for everything.'
+      text: 'Been using J-Amp Group for our renovation projects. Reliable, fair pricing, and excellent workmanship. Our go-to electricians in Melbourne.'
     },
     {
       id: 4,
       name: 'Emily Johnson',
-      role: 'Homeowner',
+      role: 'Homeowner - Melbourne',
       image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop',
       rating: 5,
-      text: 'From the quote to completion, everything was smooth and professional. They installed our smart home system perfectly. Great team!'
+      text: 'From quote to completion, everything was smooth and professional. They handled our home extension electrical work perfectly. Great team!'
     },
     {
       id: 5,
       name: 'David Brown',
-      role: 'Office Manager',
+      role: 'Homeowner - Melbourne',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop',
       rating: 5,
-      text: 'Upgraded our office lighting to LED. The team was efficient, clean, and the result is fantastic. Much better lighting and lower bills!'
+      text: 'Outstanding work on our renovation. The electricians were efficient, clean, and the result is fantastic. Highly professional service!'
     },
     {
       id: 6,
       name: 'Lisa Williams',
-      role: 'Homeowner',
+      role: 'Homeowner - Melbourne',
       image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop',
       rating: 5,
-      text: 'Had an electrical panel upgrade done. The electrician explained everything clearly, worked cleanly, and finished on time. Very satisfied!'
+      text: 'Had a switchboard upgrade done. The electrician explained everything clearly, worked cleanly, and finished on time. Very satisfied!'
     }
   ]
 
@@ -69,7 +69,7 @@ export default function Testimonials() {
           </h2>
           <p className="text-gray-600 text-lg">
             Don&apos;t just take our word for it. Here&apos;s what our satisfied customers have to say 
-            about their experience with Electrica.
+            about their experience with J-Amp Group.
           </p>
         </div>
 
@@ -115,15 +115,15 @@ export default function Testimonials() {
         {/* Bottom Stats */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div>
-            <div className="text-4xl font-bold text-primary mb-2">98%</div>
+            <div className="text-4xl font-bold text-primary mb-2">100%</div>
             <div className="text-gray-600">Client Satisfaction</div>
           </div>
           <div>
-            <div className="text-4xl font-bold text-primary mb-2">5000+</div>
+            <div className="text-4xl font-bold text-primary mb-2">200+</div>
             <div className="text-gray-600">Projects Completed</div>
           </div>
           <div>
-            <div className="text-4xl font-bold text-primary mb-2">15+</div>
+            <div className="text-4xl font-bold text-primary mb-2">5+</div>
             <div className="text-gray-600">Years Experience</div>
           </div>
           <div>

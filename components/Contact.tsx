@@ -59,7 +59,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-secondary mb-1">Our Location</h4>
-                  <p className="text-gray-600">123 Electric Avenue<br />New York, NY 10001</p>
+                  <p className="text-gray-600">Melbourne, Victoria<br />Australia</p>
                 </div>
               </div>
 
@@ -70,8 +70,8 @@ export default function Contact() {
                 <div>
                   <h4 className="font-bold text-secondary mb-1">Phone Number</h4>
                   <p className="text-gray-600">
-                    Main: <a href="tel:+1234567890" className="hover:text-primary transition">+1 (234) 567-890</a><br />
-                    Emergency: <a href="tel:+1234567891" className="hover:text-primary transition">+1 (234) 567-891</a>
+                    Main: <a href="tel:0482441022" className="hover:text-primary transition">0482 441 022</a><br />
+                    Available: 7 Days a Week
                   </p>
                 </div>
               </div>
@@ -83,8 +83,8 @@ export default function Contact() {
                 <div>
                   <h4 className="font-bold text-secondary mb-1">Email Address</h4>
                   <p className="text-gray-600">
-                    <a href="mailto:info@electrica.com" className="hover:text-primary transition">info@electrica.com</a><br />
-                    <a href="mailto:support@electrica.com" className="hover:text-primary transition">support@electrica.com</a>
+                    <a href="mailto:info@j-ampgroup.com.au" className="hover:text-primary transition">info@j-ampgroup.com.au</a><br />
+                    <a href="mailto:quotes@j-ampgroup.com.au" className="hover:text-primary transition">quotes@j-ampgroup.com.au</a>
                   </p>
                 </div>
               </div>
@@ -96,9 +96,9 @@ export default function Contact() {
                 <div>
                   <h4 className="font-bold text-secondary mb-1">Business Hours</h4>
                   <p className="text-gray-600">
-                    Mon - Fri: 7:00 AM - 7:00 PM<br />
-                    Sat - Sun: 8:00 AM - 5:00 PM<br />
-                    <span className="text-primary font-semibold">24/7 Emergency Service</span>
+                    Mon - Fri: 7:00 AM - 5:00 PM<br />
+                    Sat: 8:00 AM - 2:00 PM<br />
+                    <span className="text-primary font-semibold">Emergency Service Available</span>
                   </p>
                 </div>
               </div>
