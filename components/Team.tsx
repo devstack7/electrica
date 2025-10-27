@@ -113,7 +113,7 @@ export default function Team() {
         </div>
 
         {/* CTA Section */}
-        <div className="mt-16 bg-gradient-to-r from-secondary to-accent rounded-2xl p-12 text-center text-white">
+        <div className="mt-16 bg-gradient-to-r from-secondary to-black rounded-2xl p-12 text-center text-white border-2 border-primary/30">
           <h3 className="text-3xl font-bold mb-4">Join Our Growing Team!</h3>
           <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
             We&apos;re always looking for skilled electricians to join our team. 

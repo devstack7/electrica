@@ -1,6 +1,7 @@
 'use client'
 
-import { FaBolt, FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
+import Image from 'next/image'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -12,9 +13,15 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-2 mb-6">
-              <div className="bg-primary p-2 rounded-lg">
-                <FaBolt className="text-2xl text-secondary" />
+            <div className="flex items-center gap-3 mb-6">
+              <div className="relative w-10 h-10">
+                <Image 
+                  src="/images/j-amp-logo.png" 
+                  alt="J-Amp Group Logo"
+                  width={40}
+                  height={40}
+                  className="object-contain"
+                />
               </div>
               <div>
                 <h3 className="text-2xl font-bold">J-AMP GROUP</h3>

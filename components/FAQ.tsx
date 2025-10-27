@@ -95,7 +95,7 @@ export default function FAQ() {
         </div>
 
         {/* Bottom CTA */}
-        <div className="mt-16 text-center bg-gradient-to-r from-secondary to-accent rounded-2xl p-12 text-white">
+        <div className="mt-16 text-center bg-gradient-to-r from-secondary to-black rounded-2xl p-12 text-white border-2 border-primary/30">
           <h3 className="text-3xl font-bold mb-4">Still Have Questions?</h3>
           <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
             Can&apos;t find the answer you&apos;re looking for? Our friendly team is here to help! 
@@ -105,7 +105,7 @@ export default function FAQ() {
             <a href="#contact" className="btn-primary">
               Contact Us
             </a>
-            <a href="tel:0482441022" className="btn-outline border-white text-white hover:bg-white hover:text-secondary">
+            <a href="tel:0482441022" className="btn-outline border-white text-white hover:bg-primary hover:text-white hover:border-primary">
               Call: 0482 441 022
             </a>
           </div>

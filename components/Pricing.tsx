@@ -83,7 +83,7 @@ export default function Pricing() {
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-primary text-secondary px-6 py-2 rounded-full text-sm font-bold shadow-lg">
+                  <span className="bg-primary text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg">
                     MOST POPULAR
                   </span>
                 </div>
@@ -112,8 +112,8 @@ export default function Pricing() {
                 href="#contact" 
                 className={`block text-center py-3 px-6 rounded-lg font-semibold transition-all ${
                   plan.popular
-                    ? 'bg-primary text-secondary hover:bg-primary-dark'
-                    : 'bg-secondary text-white hover:bg-secondary-light'
+                    ? 'bg-primary text-white hover:bg-primary-dark shadow-lg'
+                    : 'bg-secondary text-white hover:bg-primary'
                 }`}
               >
                 Get Started

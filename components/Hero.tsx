@@ -5,14 +5,26 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section id="home" className="relative bg-gradient-to-br from-secondary via-secondary-light to-accent min-h-screen flex items-center overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 text-primary text-9xl">
-          <FaBolt />
+    <section id="home" className="relative bg-gradient-to-br from-secondary via-black to-neutral-dark min-h-screen flex items-center overflow-hidden">
+      {/* Background Pattern with Logo */}
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute top-20 left-10 w-64 h-64">
+          <Image 
+            src="/images/j-amp-logo.png" 
+            alt="J-Amp Group"
+            width={256}
+            height={256}
+            className="object-contain"
+          />
         </div>
-        <div className="absolute bottom-20 right-10 text-primary text-9xl">
-          <FaBolt />
+        <div className="absolute bottom-20 right-10 w-64 h-64">
+          <Image 
+            src="/images/j-amp-logo.png" 
+            alt="J-Amp Group"
+            width={256}
+            height={256}
+            className="object-contain"
+          />
         </div>
       </div>
 
@@ -20,7 +32,7 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-white">
-            <div className="inline-block bg-primary/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
+            <div className="inline-block bg-primary/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-primary/30">
               <span className="text-primary font-semibold">⚡ Professional Electricians</span>
             </div>
             
@@ -55,7 +67,7 @@ export default function Hero() {
               <a href="#contact" className="btn-primary text-center">
                 Get Free Quote
               </a>
-              <a href="tel:0482441022" className="btn-outline border-white text-white hover:bg-white hover:text-secondary text-center flex items-center justify-center gap-2">
+              <a href="tel:0482441022" className="btn-outline border-white text-white hover:bg-primary hover:text-white hover:border-primary text-center flex items-center justify-center gap-2">
                 <FaPhone />
                 <span>0482 441 022</span>
               </a>
@@ -91,10 +103,10 @@ export default function Hero() {
                 />
                 
                 {/* Floating Card */}
-                <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-2xl">
+                <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-2xl border-2 border-primary">
                   <div className="flex items-center gap-4">
                     <div className="bg-primary p-4 rounded-lg">
-                      <FaBolt className="text-3xl text-secondary" />
+                      <FaBolt className="text-3xl text-white" />
                     </div>
                     <div>
                       <div className="text-2xl font-bold text-secondary">24/7</div>
@@ -107,7 +119,7 @@ export default function Hero() {
 
             {/* Decorative Elements */}
             <div className="absolute -top-6 -right-6 w-72 h-72 bg-primary/20 rounded-full blur-3xl"></div>
-            <div className="absolute -bottom-6 -left-6 w-72 h-72 bg-accent-light/20 rounded-full blur-3xl"></div>
+            <div className="absolute -bottom-6 -left-6 w-72 h-72 bg-primary/10 rounded-full blur-3xl"></div>
           </div>
         </div>
       </div>

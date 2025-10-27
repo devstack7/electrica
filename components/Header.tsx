@@ -1,7 +1,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { FaBolt, FaPhone, FaEnvelope, FaBars, FaTimes } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaBars, FaTimes } from 'react-icons/fa'
+import Image from 'next/image'
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -28,7 +29,7 @@ export default function Header() {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-secondary text-white py-2 px-4 md:px-8 hidden md:block">
+      <div className="bg-secondary text-white py-2 px-4 md:px-8 hidden md:block border-b border-primary/20">
         <div className="container-custom flex justify-between items-center text-sm">
           <div className="flex gap-6">
             <a href="tel:0482441022" className="flex items-center gap-2 hover:text-primary transition">
@@ -55,9 +56,16 @@ export default function Header() {
         <nav className="container-custom py-4 px-4 md:px-8">
           <div className="flex justify-between items-center">
             {/* Logo */}
-            <a href="#home" className="flex items-center gap-2 group">
-              <div className="bg-primary p-2 rounded-lg group-hover:scale-110 transition-transform">
-                <FaBolt className="text-2xl text-secondary" />
+            <a href="#home" className="flex items-center gap-3 group">
+              <div className="relative w-12 h-12 group-hover:scale-110 transition-transform">
+                <Image 
+                  src="/images/j-amp-logo.png" 
+                  alt="J-Amp Group Logo"
+                  width={48}
+                  height={48}
+                  className="object-contain"
+                  priority
+                />
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-secondary">J-AMP GROUP</h1>

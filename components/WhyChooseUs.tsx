@@ -37,7 +37,7 @@ export default function WhyChooseUs() {
   ]
 
   return (
-    <section className="section-padding bg-gradient-to-br from-secondary to-accent text-white relative overflow-hidden">
+    <section className="section-padding bg-gradient-to-br from-secondary to-black text-white relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-10 right-10 text-primary text-9xl"><FaBolt /></div>
@@ -66,8 +66,8 @@ export default function WhyChooseUs() {
               key={index}
               className="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300 card-hover"
             >
-              <div className="bg-primary w-14 h-14 rounded-lg flex items-center justify-center mb-6">
-                <div className="text-2xl text-secondary">
+              <div className="bg-primary w-14 h-14 rounded-lg flex items-center justify-center mb-6 shadow-lg">
+                <div className="text-2xl text-white">
                   {reason.icon}
                 </div>
               </div>
@@ -88,7 +88,7 @@ export default function WhyChooseUs() {
             <a href="#contact" className="btn-primary">
               Get Free Quote
             </a>
-            <a href="tel:0482441022" className="btn-outline border-white text-white hover:bg-white hover:text-secondary">
+            <a href="tel:0482441022" className="btn-outline border-white text-white hover:bg-primary hover:text-white hover:border-primary">
               Call: 0482 441 022
             </a>
           </div>
